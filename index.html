@@ -446,7 +446,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <form action="https://docs.google.com/forms/d/1gzM0UH0xaV2JgujksqCRdYij0-fOOj_EGpfGgT2GttI/formResponse"
-                      name="gform" id="gform" onsubmit="submitted=true;" novalidate>
+                      name="gform" id="gform" onsubmit="submitted=true;" target="hidden_iframe" novalidate>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -480,6 +480,9 @@
                         </div>
                     </div>
                 </form>
+
+
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
             </div>
         </div>
     </div>
@@ -757,9 +760,19 @@
 <script src="js/classie.js"></script>
 <script src="js/cbpAnimatedHeader.js"></script>
 
+
 <!-- Contact Form JavaScript -->
 <script src="js/jqBootstrapValidation.js"></script>
 <script src="js/contact_me.js"></script>
+
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+    $('#gform').on('submit', function(e) {
+        $('#gform *').fadeOut(2000);
+        $('#gform').prepend('Your submission has been processed...');
+    });
+</script>
 
 <!-- Custom Theme JavaScript -->
 <script src="js/agency.js"></script>
