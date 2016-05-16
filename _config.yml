@@ -4,7 +4,7 @@ markdown: kramdown
 url: http://koelnerhof.github.io
 title: Blog
 email: 
-author: Koelnerhof
+author: koelnerhof
 description: Blog test
 paginate: 5
 google_analytics: 
