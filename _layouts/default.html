@@ -3,18 +3,34 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ Willkommen im Kölner Hof }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description | strip_html }}{% endif %}">
     <meta name="author" content="{{ site.author }}">
     {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/basscss.css" | prepend: site.baseurl }}" type="text/css">
     <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}" type="text/css">
     <link rel="stylesheet" href="{{ "/css/solarized-dark.css" | prepend: site.baseurl }}" type="text/css">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <link href="css/blog.css" rel="stylesheet">
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
@@ -22,17 +38,60 @@
 
 <body>
   <div class="site-wrap">
-    <header class="site-header px2 px-responsive">
-      <div class="mt2 wrap">
-        <div class="measure">
-          <a href="{{ site.url }}" class="left">{{ site.title }}</a>
-          <nav class="site-nav right">
-            {% include navigation.html %}
-          </nav>
-          <div class="clearfix"></div>
-        </div>
-      </div>
-    </header>
+      <!-- Navigation -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse"
+                          data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand page-scroll" href="index.html#page-top">Kölner Hof</a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="hidden">
+                          <a href="index.html#page-top"></a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="index.html#portfolio">Das sind wir</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#portfolio">Blog</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="index.html#team">Team</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="index.html#history">Historie</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="index.html#contact">Schreiben Sie uns</a>
+                      </li>
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+      </nav>
+      <header>
+          <div class="container">
+              <div class="intro-text">
+                  <div class="intro-heading">Unser Blog</div>
+                  <h4 class="section-subheading text-muted" style="color: #fff">
+                      Hier gibts aktuelle Neuigkeiten rund um Aktionen in unserem Hause und Veranstaltungen an der Ahr. <br/>
+                      &nbsp;</h4>
+                  <h4>&nbsp;</h4>
+                  <a href="#portfolio" class="page-scroll btn btn-xl">Zu den Blogposts</a>
+              </div>
+          </div>
+      </header>
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="measure">
@@ -43,3 +102,4 @@
 
 </body>
 </html>
+
