@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'leipzig-fraktur';
+    src:
+             url('../leipzig-fraktur/fonts/Leipzig Fraktur Normal_UNZ1A.ttf') format('truetype')
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
@@ -118,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-brand {
     color: #fff ;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "leipzig-fraktur", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
@@ -216,7 +225,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:"Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
@@ -792,3 +801,6 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #2d861e
 }
+
+
+
