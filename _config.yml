@@ -1,10 +1,10 @@
 excerpt_separator: ""
-pygments: true
+pygments: false
 markdown: kramdown
-url: http://garygrossgarten.de
+url: http://koelnerhof.github.io
 title: Blog
 email: 
-author: garygrossgarten
+author: Koelnerhof
 description: Blog test
 paginate: 5
 google_analytics: 
