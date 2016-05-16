@@ -1,6 +1,0 @@
----
-published: true
-title: 4
-layout: post
----
-4
