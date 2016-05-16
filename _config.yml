@@ -1,8 +1,8 @@
 excerpt_separator: ""
 pygments: false
 markdown: kramdown
-url: http://koelnerhof.github.io/
-baseurl: http://koelnerhof.github.io/blog
+url: http://koelnerhof.github.io/blog
+baseurl: http://koelnerhof.github.io/
 title: Blog
 email: 
 author: koelnerhof
