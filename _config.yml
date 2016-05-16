@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://garygrossgarten.de
+title: Blog
+email: 
+author: garygrossgarten
+description: Blog test
+paginate: 5
+google_analytics: 
