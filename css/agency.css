@@ -230,7 +230,7 @@ header .intro-text .intro-heading {
     font-weight: 500;
     font-size: 45px;
     line-height: 45px;
-    margin-bottom: 25px
+    margin-bottom: 50px
 }
 
 @media (min-width: 768px) {
@@ -253,7 +253,7 @@ header .intro-text .intro-heading {
         font-weight: 500;
         font-size: 45px;
         line-height: 45px;
-        margin-bottom: 25px
+        margin-bottom: 50px
     }
 }
 
