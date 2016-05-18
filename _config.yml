@@ -3,10 +3,10 @@ pygments: false
 markdown: kramdown
 url: http://koelnerhof.github.io/blog
 baseurl: http://koelnerhof.github.io
-title: Blog
+title: Unser Blog
 email: 
 author: koelnerhof
-description: Blog test
+description:
 paginate: 5
 paginate_path: blog/page:num
 google_analytics: 
