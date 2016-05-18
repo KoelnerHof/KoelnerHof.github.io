@@ -314,7 +314,7 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>1909 - heute</h4>
+                                <h4>1999 - heute</h4>
                                 <h4 class="subheading">Tradition trifft Moderne</h4>
                             </div>
                             <div class="timeline-body">
@@ -353,7 +353,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <form action="https://docs.google.com/forms/d/1Ozp5hHn1JZL-wdpqDnG5yOf0tpUq4W0BOQzxRQd7J5w/formResponse"
-                      name="gform" id="gform" onsubmit="submitted=true;" target="hidden_iframe" novalidate>
+                      name="gform" id="gform" onsubmit="submitted=true;" target="hidden_iframe" data-toggle="validator">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -1021,7 +1021,7 @@
 <script type="text/javascript">
     $('#gform').on('submit', function (e) {
         $('#gform *').fadeOut(2000);
-        $('#gform').prepend('Danke! Ihre Nachricht wurde gesendet...');
+        $('#gform').prepend("<h4 style='color: #fff; text-align: center'>Danke, wir melden uns bald zurück!</h4>");
     });
 </script>
 
