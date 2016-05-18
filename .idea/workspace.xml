@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feb6177f-6d5e-439f-914e-9e5f33da716d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/css/blog.css" afterPath="$PROJECT_DIR$/blog/css/blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/tempblogpost.html" afterPath="$PROJECT_DIR$/_layouts/tempblogpost.html" />
     </list>
     <ignored path="KoelnerHof.github.io.iws" />
@@ -114,24 +113,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tempblogpost.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tempblogpost.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/tempblogpost.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.538462">
-              <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.5277778">
+              <caret line="92" column="97" selection-start-line="92" selection-start-column="97" selection-end-line="92" selection-end-column="97" />
               <folding>
-                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.019101124">
-              <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -181,8 +180,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_layouts/temp.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/_layouts/tempblogpost.html" />
         <option value="$PROJECT_DIR$/blog/css/blog.css" />
+        <option value="$PROJECT_DIR$/_layouts/tempblogpost.html" />
       </list>
     </option>
   </component>
@@ -992,22 +991,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/tempblogpost.html">
+    <entry file="file://$PROJECT_DIR$/blog/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.538462">
-          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/css/blog.css">
+    <entry file="file://$PROJECT_DIR$/_layouts/tempblogpost.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.019101124">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-          <folding />
+        <state vertical-scroll-proportion="0.5277778">
+          <caret line="92" column="97" selection-start-line="92" selection-start-column="97" selection-end-line="92" selection-end-column="97" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
