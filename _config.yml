@@ -2,7 +2,7 @@ excerpt_separator: ""
 pygments: false
 markdown: kramdown
 url: http://koelnerhof.github.io/blog
-baseurl: http://koelnerhof.github.io
+baseurl: http://koelnerhof.github.io/blog
 title: Unser Blog
 email: 
 author: koelnerhof
