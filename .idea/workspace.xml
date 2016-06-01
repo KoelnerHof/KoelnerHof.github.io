@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feb6177f-6d5e-439f-914e-9e5f33da716d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.md" afterPath="$PROJECT_DIR$/404.md" />
     </list>
     <ignored path="KoelnerHof.github.io.iws" />
@@ -39,17 +38,7 @@
         <entry file="file://$PROJECT_DIR$/404.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="center.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/center.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="36" />
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -167,7 +156,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoelnerHof.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="koelnerhof.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoelnerHof.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="koelnerhof.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -881,7 +898,7 @@
     <entry file="file://$PROJECT_DIR$/404.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
         </state>
       </provider>
