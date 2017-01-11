@@ -12,7 +12,7 @@
     margin-top: -550px; /* your iframe height */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     #fb-frame{
         display: block;
     }
@@ -20,7 +20,7 @@
         display: none;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
     #fb-frame{
         display: none;
     }
