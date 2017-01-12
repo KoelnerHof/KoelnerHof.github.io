@@ -12,19 +12,47 @@
     margin-top: -550px; /* your iframe height */
 }
 
+#khs-header {
+    height: auto;
+    width: 50%;
+}
+
+#oe-table{
+    border: 1px solid #fff;
+    font-size: 1.4em;
+}
+
 @media (min-width: 500px) {
-    #fb-frame{
+    #fb-frame {
         display: block;
     }
-    #fb-link{
+
+    #fb-link {
         display: none;
     }
 }
+
 @media (max-width: 499px) {
-    #fb-frame{
+    #fb-frame {
         display: none;
     }
-    #fb-link{
+
+    #fb-link {
         display: block;
+    }
+
+    #khs-header {
+        height: auto;
+        width: 96% !important;
+    }
+
+    #historic {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    #oe-table{
+        border: 1px solid #fff;
+        font-size: 1em;
     }
 }
